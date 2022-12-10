@@ -1,0 +1,94 @@
+body{
+    margin: 50px 0 60px 0;
+   
+    background-image: linear-gradient(#a4133c, #560bad);
+    background-size: contain;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+    font-size: 70px;
+    text-align: center;
+    margin: 40px 0 0px 0;
+}
+h2{
+    font-family:'Courier New', Courier, monospace;
+    color: whitesmoke;
+    margin: 80px 0 10px 530px;
+}
+.box{
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px dashed #090c5a;
+    border-radius: 10px;
+    width:max-content;
+    margin: 0 auto 100px auto;
+    padding: 25px 80px 30px 80px ;
+    font-size: larger;
+    background-color: #b6ad90;
+}
+.personame{
+    display: block;
+    margin: 10px 0 20px 0;
+}
+.personame input,.personname input{
+    width: 300px;
+    margin-top: 4px;
+    padding: 7px;
+    border: 1px soild black;
+    border-radius: 6px;
+    background-color: none;
+}
+.personame:hover,.personname:hover,.birthdate:hover,.emaill:hover,.phoneNo:hover{
+ text-decoration: underline;
+ color: rgb(69, 162, 194);
+ transition: 600ms linear;
+
+}
+.personname,.birthdate,.emaill,.phoneNo,.gender{
+    margin: 10px 0 20px 0;
+}
+
+.birthdate input,.emaill input,.phoneNo input{
+    width: 300px;
+    margin-top: 4px;
+    padding: 7px;
+    border: 1px soild black;
+    border-radius: 6px;
+    background-color: none;
+   
+}
+.personame input:hover,.personname input:hover,.birthdate input:hover,.emaill input:hover,.phoneNo input:hover{
+    font-style: bolder;
+    background-color: white;
+    transition: 600ms linear;
+    
+   }
+.Gender :hover {
+    text-decoration: underline;
+ color: rgb(69, 162, 194);
+ transition: 600ms linear;
+
+}
+.robot{
+    margin: 40px 0 20px 0;
+}
+.checkbox{
+    height: 24px;
+    width: 24px;
+    background-color: black;
+    accent-color: green;
+}
+.finalsubmit input{
+    margin: 10px 0 20px 0;
+    padding: 10px;
+    font-weight: bolder;
+    color: aliceblue;
+    background-color: black;
+    width: 100px;
+    border-radius: 20px;
+}
+.finalsubmit input:hover{
+    color: black;
+    background-color: white;
+}
