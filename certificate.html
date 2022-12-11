@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Application for certificate</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="certifystyle.css">
+</head>
+<body>
+<h1>Certificates </h1>
+<h2>Fill up the details</h2>
+<form>
+    <div class="box">
+        <div class="typename" >
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Type your name here">
+        </div>
+        <div class="typeusn" >
+            <label for="usn">USN:</label><br>
+            <input type="text" id="usn" name="usn" placeholder="Enter your USN here">
+        </div>
+        <div class="selection">
+                <label for="certificate">Select the certificate:</label><br>
+                <select name="certificate" class="certificate">
+                    <option value="study">Study certificate</option>
+                    <option value="transfer">Transfer certificate</option>
+                    <option value="all">All </option>
+                </select>
+        </div>
+        <div class="finalsubmit">
+            <input type="submit" value="Submit">
+             
+        </div>
+
+    </div>
+</form>
+</body>
+</html>
