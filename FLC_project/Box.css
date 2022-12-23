@@ -4,15 +4,38 @@
   padding: 10px;
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
-
+ 
 }
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background : url(backimg3.webp);
+    background: linear-gradient(#a40cae,#dac912);
     background-position: cover;
+}
+.image{
+    justify-content: center;
+}
+h1{  
+    justify-content: center;
+    text-align: center;
+    text-size-adjust: 30px;
+    padding:20px 0;
+    color: transparent;
+   -webkit-text-stroke: 1px white ;
+   background: url(back.png);
+   background-clip: text;
+   -webkit-background-clip: text;
+   background-position: 0 0;
+   animation: back 20s linear infinite;
+
+
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
 }
 .container{
     display: flex;
@@ -21,6 +44,7 @@ body{
     max-width: 1200px;
     flex-wrap: wrap;
     padding: 40px 0;
+   
 }
 .container .card
 {
@@ -34,6 +58,7 @@ body{
 
 border-radius: 15px;
 margin: 30px;
+
 }
     
 .container .card .box{
@@ -42,31 +67,31 @@ margin: 30px;
     left: 20px;
     right: 20px;
     bottom: 20px;
-    background: #ebf5fc;
+    background: #03a9f4;
     box-shadow: 0 10 20px rgba(0,0,0,0.1);
     border-radius: 15px;
     display:flex;
     justify-content: center;
     align-items: center;
     transition: 0.5s;
-     border: 5px dotted #210a7b;
-    box-shadow: #03a9f4;
+    border: 3px solid #210a7b;
+      box-shadow: 10px 10px 10px black;
     box-sizing: border-box;
-    animation: rotate 5s linear ;
+
+    
 
 
 }
-@keyframes rotate{
-    100%{
-        transform: rotate(1turn);
-    }
-}
+
 .container .card:hover .box{
+    
     transform:translateY(-50%px);
     transition: 1s;
     box-shadow: 0 10 40px rgba(0,0,0,0.2);
-    background: url(back5.webp);
+    background:linear-gradient(#f324b5,#eeee1d);
+    
 }
+
 .container .box .card .content{
     padding: 20px;
     text-align: center;
